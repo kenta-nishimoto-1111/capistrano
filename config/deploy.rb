@@ -61,7 +61,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push(
         end
     end
 
-    before :deploy, :make_dirs
+    before :deploy, 'puma:make_dirs'
     end
 
     namespace :deploy do

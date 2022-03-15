@@ -94,6 +94,6 @@ set :linked_dirs, fetch(:linked_dirs, []).push(
         end
     end
 
-    before :deploy,     :upload
-    before :deploy,     :check_revision
+    before :deploy,     'deploy:upload'
+    before :deploy,     'deploy:check_revision'
 end

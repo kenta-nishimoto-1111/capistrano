@@ -1,6 +1,6 @@
 lock "3.17.0"
 
-set :application, "monka-app"
+set :application, "capistrano"
 set :repo_url, "https://github.com/kenta-nishimoto-1111/capistrano.git"
 
 server "192.168.1.102", port: 2525, roles: [:app, :web, :db], primary: true

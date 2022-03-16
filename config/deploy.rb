@@ -1,4 +1,4 @@
-lock "3.17.0"
+lock "3.16.0"
 
 set :application, "capistrano"
 set :repo_url, "https://github.com/kenta-nishimoto-1111/capistrano.git"

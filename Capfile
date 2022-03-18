@@ -38,6 +38,7 @@ require 'capistrano/rails'
 require 'capistrano/bundler'
 #require 'capistrano/rvm'
 require 'capistrano/puma'
+require "sassc"
 
 install_plugin Capistrano::Puma  # Default puma tasks
 install_plugin Capistrano::Puma::Workers  # if you want to control the workers (in cluster mode)
